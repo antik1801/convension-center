@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500;600&family=Work+Sans:wght@500&display=swap');
+
+
+:root {
+    --text-primary: #3E3E3E;
+    --nav-bg: #E5E5E5;
+    --font-family-primary: 'Poppins', sans-serif;
+}
+
+* {
+    color: var(--text-primary);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Style Start  */
+nav {
+    background-color: var(--nav-bg);
+}
+
+.navbar-text {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+li {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Banner Style  */
+
+.m-para {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* Weeding style  */
+
+.weeding {
+    margin-top: 7rem;
+}
+
+.weeding-image img {
+    width: 100%;
+}
+
+.weeding-image {
+    width: 28rem;
+}
+
+.weeding-description {
+    width: 28rem;
+}
+
+.weeding-description h3 {
+    color: #0A0826;
+    font-size: 2.375rem;
+    font-weight: 700;
+}
+
+.weeding-description p {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #6C6C6C;
+}
+
+.weeding-description button {
+    position: relative;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.ditach{
+    /* display: inline; */
+    position: relative;
+    width: 20rem;
+    left: 6rem;
+    bottom: 8rem;
+}
+.ditach p {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* Packages style */
+
+.packages {
+    margin-top: 7.5rem;
+    color: #0A0826;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 8.7rem;
+
+}
+
+.packages h5 {
+    color: #231D4F;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.packages p {
+    color: #231D4F;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+
+@media only screen and (max-width: 540px) {
+    main section {
+        flex-direction: column-reverse;
+    }
+
+    .weeding-description h3,
+    p,
+    button {
+        text-align: center;
+    }
+
+    .weeding-description button {
+        transform: translate(8rem, 22rem);
+    }
+
+
+}
