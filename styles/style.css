@@ -105,7 +105,22 @@ li {
     font-weight: 700;
     font-size: 28px;
 }
+.card-group{
+    
+    
+}
+.card-group img{
+    
+    
+}
 
+.card>img{
+    
+}
+
+.card-title > img{
+  
+}
 
 @media only screen and (max-width: 540px) {
     main section {
